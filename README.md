@@ -1,4 +1,4 @@
 vksave
 ======
 
-download music from vk.com
+Bookmarklet for download music from vk.com.
