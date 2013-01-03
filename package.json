@@ -1,0 +1,11 @@
+{
+  "name": "vksave",
+  "version": "0.1.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "Music downloader for vk.com",
+  "homepage": "https://coderaiser.github.com/vksave",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/vksave.git"
+  }
+}
