@@ -1,5 +1,9 @@
-function vksave(document){
+var VKSave;
+
+(function vksave(document){
     'use strict';
+    
+    VKSave = {};
     
     if(!document.onscroll)
         document.onscroll = function(){ vksave(document) };
@@ -37,9 +41,10 @@ function vksave(document){
         return lRet;
     }
     
-    var create      = document.createElement.bind(document),
-        area        = getByClass('area');
-        
+    VKSave.addLinks = function(){
+        var create      = document.createElement.bind(document),
+            area        = getByClass('area');
+            
         for (var i = 0, n = area.length; i < n ; i++){
             var id = 'vksave_' + i;
             if( !getById(id) ){
@@ -65,5 +70,5 @@ function vksave(document){
                 title.appendChild(link);
             }
         }
-    
-}(document);
+    }
+})(document);
