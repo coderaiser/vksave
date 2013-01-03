@@ -1,6 +1,9 @@
-(function(document){
+(function vksave(document){
     'use strict';
-            
+    
+    if(!document.onscroll)
+        document.onscroll = function(){ vksave(document) };
+    
     function getById(pId, pElement){
         return (pElement || document).getElementById(pId);
     }
