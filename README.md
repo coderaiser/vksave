@@ -1,4 +1,5 @@
-vksave
+VKSave
 ======
 
-Bookmarklet for download music from vk.com.
+**VKSave** поможет скачать музыку с вконтакта, быстро и удобно.
+Без установки программ и просмотра рекламы.
