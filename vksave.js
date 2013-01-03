@@ -1,4 +1,4 @@
-(function(){
+(function(document){
     'use strict';
             
     function getByClass(pClass, pElement){
@@ -55,4 +55,4 @@
             title.appendChild(link);
         }
     
-})();
+})(document);
