@@ -1,4 +1,4 @@
-(function vksave(document){
+function vksave(document){
     'use strict';
     
     if(!document.onscroll)
@@ -66,4 +66,4 @@
             }
         }
     
-})(document);
+}(document);
