@@ -7,7 +7,7 @@ VKSave
 Установка
 ========
 Для использования **VKSave** необходимо создать закладку
-с содержимым файла [vksave.min.js](//raw.github.com/coderaiser/vkcrypt/master/min/vksave.min.js)
+с содержимым файла [bookmarklet.min.js](//raw.github.com/coderaiser/vkcrypt/master/min/bookmarklet.min.js)
 
 Языки
 ========
